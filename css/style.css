@@ -1,0 +1,28 @@
+.navbar{
+    height: 100px;
+}
+.navbar-brand span{
+    color: red;
+    margin-right: 5px;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-item a{
+    color: orange;
+    float: right;
+}
+#navbarNav{
+    float: right;
+}
+.carousel-item img{
+    height: max-content;
+}
+@media (max-width: 600px)
+{
+    .navbar{display: block;}
+    .nav-link {
+    margin: auto;
+    font-size: 50px;}
+
+}
